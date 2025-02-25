@@ -1,0 +1,27 @@
+/* /src/styles/CarListings.css */
+.car-listings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.listing-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.image-gallery {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.car-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
